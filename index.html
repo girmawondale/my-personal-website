@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Legendarymen</title>
+  <meta name="description" content="Legendarymen - personal site" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <style>
+    :root{--accent:#0f62fe;--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;background:linear-gradient(180deg,#071021 0%, #071528 100%);color:#e6eef6}
+    a{color:var(--accent);text-decoration:none}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter: blur(6px)}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#7c5cff);display:flex;align-items:center;justify-content:center;font-weight:700}
+    nav{display:flex;gap:14px;align-items:center}
+    main{max-width:1100px;margin:28px auto;padding:0 18px;display:grid;grid-template-columns:1fr 320px;gap:22px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:18px}
+    .post{padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.03);margin-bottom:12px}
+    .post h2{margin:0 0 6px 0}
+    .meta{color:var(--muted);font-size:13px}
+    .sidebar .widget{margin-bottom:16px}
+    footer{max-width:1100px;margin:22px auto;padding:18px;display:flex;justify-content:space-between;align-items:center;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">LM</div>
+      <div>
+        <div style="font-weight:700;font-size:18px">Legendarymen</div>
+        <div style="font-size:12px;color:var(--muted)">Stories, thoughts, and short posts</div>
+      </div>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="card" id="home" role="main">
+        <div style="margin-bottom:16px">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-5064456256543691"
+               data-ad-slot="1111111111"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+        <article class="post">
+          <h2>Welcome to Legendarymen</h2>
+          <div class="meta">November 14, 2025 • By Legendarymen</div>
+          <p>Short introduction text goes here.</p>
+        </article>
+
+        <article class="post">
+          <h2>Latest Thoughts</h2>
+          <div class="meta">November 10, 2025</div>
+          <p>Write short posts — minimal layout.</p>
+        </article>
+
+        <article class="post">
+          <h2>Minimal, privacy-friendly</h2>
+          <div class="meta">October 30, 2025</div>
+          <p>Remember to add required policies.</p>
+        </article>
+
+        <div style="margin-top:8px;margin-bottom:8px">
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-5064456256543691"
+               data-ad-slot="2222222222"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="card widget">
+        <div style="font-weight:700;margin-bottom:8px">About</div>
+        <div style="color:var(--muted);font-size:14px">Legendarymen — a personal site.</div>
+      </div>
+
+      <div class="card widget">
+        <div style="font-weight:700;margin-bottom:8px">Advertisement</div>
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:300px;height:250px"
+             data-ad-client="ca-pub-5064456256543691"
+             data-ad-slot="3333333333"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <div class="card widget">
+        <div style="font-weight:700;margin-bottom:8px">Contact</div>
+        <div style="color:var(--muted);font-size:14px">Email: hello@legendarymen.example</div>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div>&copy; Legendarymen — <a href="#privacy" id="privacy">Privacy</a></div>
+    <div style="color:var(--muted);font-size:13px">Built for speed • AdSense-ready</div>
+  </footer>
+
+  <section id="privacy-section" style="max-width:900px;margin:24px auto;padding:18px;display:none;">
+    <div class="card">
+      <h3>Privacy Policy</h3>
+      <p>This site uses Google AdSense.</p>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('privacy').addEventListener('click', function(e){
+      e.preventDefault();
+      const sec = document.getElementById('privacy-section');
+      if(sec.style.display === 'none') sec.style.display = 'block';
+      sec.scrollIntoView({behavior:'smooth'});
+    });
+  </script>
+</body>
+</html>
